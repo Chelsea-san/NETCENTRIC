@@ -1,0 +1,1 @@
+Genesis Fashion is a unique fashion brand offering custom-tailored clothing, ready-to-wear options, and sustainable fashion. This website showcases the various features and collections of Genesis, designed to meet the needs of stylish individuals while promoting eco-friendly practices.
