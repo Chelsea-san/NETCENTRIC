@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Fashion</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+    <!-- Header Section -->
+    <header class="bg-pink-200">
+        <nav class="navbar navbar-expand-lg navbar-light px-4">
+            <a class="navbar-brand text-blue-500 font-bold" href="#">Genesis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-blue-500" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-blue-500" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link text-blue-500" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link text-blue-500" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-contain bg-center text-center text-white py-20" style="background-image: url('genesishero.jpg');">
+        <h1 class="text-5xl font-bold mb-4">Revolutionizing Fashion with Elegance</h1>
+        <p class="text-xl mb-6">Discover timeless designs and custom-tailored perfection.</p>
+        <a href="#features" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded">Explore Our Designs</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12 bg-white">
+        <div class="container text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="p-4 bg-pink-100 rounded">
+                        <img src="/img1.jpg" alt="Custom Tailoring" class="mb-3">
+                        <h4 class="font-bold">Custom Tailoring</h4>
+                        <p>Perfectly tailored outfits for every occasion.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-blue-100 rounded">
+                        <img src="/img3.jpg" alt="Ready-to-Wear" class="mb-3">
+                        <h4 class="font-bold">Ready-to-Wear</h4>
+                        <p>Elegant designs ready for you to wear.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-pink-100 rounded">
+                        <img src="img2.jpg" alt="Sustainable Fashion" class="mb-3">
+                        <h4 class="font-bold">Sustainable Fashion</h4>
+                        <p>Eco-friendly designs for the modern world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-12 bg-pink-200">
+        <div class="container text-center">
+            <h2 class="text-3xl font-bold mb-8">What Our Clients Say</h2>
+            <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="font-italic">"Genesis transformed my wardrobe. Stunning outfits!"</p>
+                        <h5>-Emy Moore</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="font-italic">"I love their ready-to-wear collection. Simply elegant."</p>
+                        <h5>-DeAsia Green</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="font-italic">"Sustainable fashion never looked so good."</p>
+                        <h5>-Ally Yost</h5>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>© 2024 Genesis Fashion. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
